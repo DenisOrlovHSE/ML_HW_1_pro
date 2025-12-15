@@ -1,0 +1,65 @@
+[data-testid="stSidebarNav"] {
+    display: none !important;
+}
+
+ul[data-testid="stSidebarNav"] {
+    display: none;
+}
+
+/* Sidebar Title */
+.sidebar-title h1 {
+    font-size: 2.5em !important;
+    font-weight: bold !important;
+    line-height: 1.2 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+}
+
+.sidebar-title h1:first-child {
+    margin-bottom: 0 !important;
+}
+
+.sidebar-title h1:last-child {
+    margin-top: 0 !important;
+}
+
+/* Button Styling */
+button {
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    padding: 12px 24px !important;
+    transition: all 0.3s ease !important;
+    border: none !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-2px) !important;
+}
+
+button:active {
+    transform: translateY(0) !important;
+}
+
+/* Primary buttons */
+[data-testid="baseButton-primary"] {
+    background: linear-gradient(135deg, #1E88E5 0%, #1565C0 100%) !important;
+    color: white !important;
+}
+
+[data-testid="baseButton-primary"]:hover {
+    background: linear-gradient(135deg, #1565C0 0%, #0D47A1 100%) !important;
+}
+
+/* Secondary buttons */
+[data-testid="baseButton-secondary"] {
+    background: linear-gradient(135deg, #E0E0E0 0%, #BDBDBD 100%) !important;
+    color: #333 !important;
+}
+
+[data-testid="baseButton-secondary"]:hover {
+    background: linear-gradient(135deg, #BDBDBD 0%, #9E9E9E 100%) !important;
+}
